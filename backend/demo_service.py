@@ -1,3 +1,7 @@
-AUTH_SERVICE_MAX_RETRIES = 5
+SERVICE_CONFIG = {
+    "auth-service": {
+        "max_retries": 5
+    }
+}
 
 def handler(): pass
